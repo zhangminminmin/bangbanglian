@@ -1,0 +1,146 @@
+---------------------------------------------------------------
+[ 2020-08-18T17:38:03+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/user/login
+[运行时间：1.163441s] [吞吐率：0.86req/s] [内存消耗：3,689.74kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000106s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.056333s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.009335s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfN0R0B9Hg4Eg4sIX',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '249',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13888888888',
+  'password' => '345345',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010962s ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\bangbanglian\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-18T17:38:07+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/user/login
+[运行时间：0.090517s] [吞吐率：11.05req/s] [内存消耗：3,791.38kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002982s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4vVxECABsZQQO5Qt',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '249',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13888888888',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000901s ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\bangbanglian\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-18T17:38:47+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/user/login
+[运行时间：0.039248s] [吞吐率：25.48req/s] [内存消耗：3,689.75kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001932s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000180s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGgIl9cXABtp8K7U6',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '249',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13888888888',
+  'password' => '345345',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000804s ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\bangbanglian\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-08-18T17:38:58+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/user/login
+[运行时间：0.052484s] [吞吐率：19.05req/s] [内存消耗：3,791.38kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001953s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000210s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0cjXgnGdrlIwe4e2',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '249',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'mobile' => '13888888888',
+  'password' => '123456',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000923s ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->login[ D:\work\bangbanglian\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File

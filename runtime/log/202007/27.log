@@ -1,0 +1,562 @@
+---------------------------------------------------------------
+[ 2020-07-27T16:30:38+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/addon?ref=addtabs
+[运行时间：1.288437s] [吞吐率：0.78req/s] [内存消耗：4,043.72kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000054s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.059782s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.009738s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.009643s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.005654s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:38+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/index/index
+[运行时间：0.354122s] [吞吐率：2.82req/s] [内存消耗：4,491.91kb] [文件加载：148]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001699s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001161s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\work\bangbanglian\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\work\bangbanglian\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000102s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:39+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/dashboard?addtabs=1
+[运行时间：0.117684s] [吞吐率：8.50req/s] [内存消耗：4,317.12kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001917s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000175s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000813s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ D:\work\bangbanglian\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] D:\work\bangbanglian\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'addonversion',
+  18 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000109s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:39+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/ajax/lang?callback=define&controllername=dashboard&v=1595838639
+[运行时间：0.062605s] [吞吐率：15.97req/s] [内存消耗：4,289.52kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001833s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1595838639',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000882s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\bangbanglian\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000129s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:40+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/addon?addtabs=1
+[运行时间：0.122377s] [吞吐率：8.17req/s] [内存消耗：4,323.62kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002124s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'addon',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/index/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000862s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ RUN ] app\admin\controller\Addon->index[ D:\work\bangbanglian\application\admin\controller\Addon.php ]
+[ info ] [ VIEW ] D:\work\bangbanglian\public/../application/admin\view\addon\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:40+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/ajax/lang?callback=define&controllername=addon&v=1595838640
+[运行时间：0.037159s] [吞吐率：26.91req/s] [内存消耗：4,293.59kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001999s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/addon?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'addon',
+  'v' => '1595838640',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000896s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\bangbanglian\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000110s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:40+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/ajax/lang?callback=define&controllername=index&v=1595838638
+[运行时间：0.045116s] [吞吐率：22.16req/s] [内存消耗：4,291.23kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000104s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002095s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1595838638',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000989s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\bangbanglian\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000158s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:45+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/general/config?addtabs=1
+[运行时间：0.143548s] [吞吐率：6.97req/s] [内存消耗：4,358.35kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002022s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/general/config?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000805s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ D:\work\bangbanglian\application\admin\controller\general\Config.php ]
+[ info ] [ VIEW ] D:\work\bangbanglian\public/../application/admin\view\general\config\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'ruleList',
+  8 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000106s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:45+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/ajax/lang?callback=define&controllername=general.config&v=1595838645
+[运行时间：0.033168s] [吞吐率：30.15req/s] [内存消耗：4,290.45kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001678s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/general/config?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1595838645',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000800s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\bangbanglian\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000099s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:51+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/general/config?addtabs=1
+[运行时间：0.046311s] [吞吐率：21.59req/s] [内存消耗：4,358.35kb] [文件加载：135]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001966s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/general/config?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000789s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ RUN ] app\admin\controller\general\Config->index[ D:\work\bangbanglian\application\admin\controller\general\Config.php ]
+[ info ] [ VIEW ] D:\work\bangbanglian\public/../application/admin\view\general\config\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'siteList',
+  6 => 'typeList',
+  7 => 'ruleList',
+  8 => 'groupList',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000097s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-27T16:30:51+08:00 ] 127.0.0.1 GET bangbl.com/XEpdYrKWOT.php/ajax/lang?callback=define&controllername=general.config&v=1595838651
+[运行时间：0.033014s] [吞吐率：30.29req/s] [内存消耗：4,290.45kb] [文件加载：136]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001755s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://bangbl.com/XEpdYrKWOT.php/general/config?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'general.config',
+  'v' => '1595838651',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000812s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ D:\work\bangbanglian\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/admin/lang/zh-cn/general/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000100s ]
+[ info ] [ LOG ] INIT File

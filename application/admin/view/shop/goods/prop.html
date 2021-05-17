@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>后台管理面板</title>
+    <!-- 告诉浏览器该页面是自适应布局 -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <style>
+        .has-bottom{margin-bottom: 5px;}
+    </style>
+    <script src="/assets/libs/jquery/dist/jquery.min.js"></script>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+
+<div class="wrapper">
+    <div class="content-wrapper" style="margin-left: 0 !important;">
+        <!--页眉-->
+        <section class="content-header">
+            <h1>添加商品规格</h1>
+        </section>
+        <!--内容开始-->
+        <section class="content">
+            <div class="search">
+                <form class="form-inline" action="">
+                    <a class="btn btn-flat btn-success m_10 f_r" onclick="javascript :history.back(-1)"><i class="fa fa-undo m-r-10"></i>返 回</a>
+                </form>
+            </div>
+
+                <form method="post" action="{:url('shop/goods/addPost')}" class="form-horizontal">
+                    <div class="row">
+                        <div class="col-sm-12 col-xs-12">
+                            <div class="box box-body">
+                                <div class="form-group">
+                                    <label class="col-sm-2 control-label">添加规格 <!--<a class="btn" style="padding: 0px;" onclick="addGallery()"><i class="fa fa-fw fa-plus-circle"></i></a>--></label>
+                                    <div class="col-sm-2">
+                                        <input type="text" name="name_add" class="form-control" placeholder="请输入规格名称" value="">
+                                        <input type="hidden" name="id" class="form-control" placeholder="请输入规格名称" value="{$id}">
+                                    </div>
+                                    <a class="btn btn-success" onclick="addAttribute(this)">添加</a>
+                                </div>
+                                <div class="" id="attribute-box"></div>
+
+
+
+                                <div class="form-group" id="lv_table_con">
+                                    <label class="col-sm-2 control-label">规格排列</label>
+                                    <div class="col-sm-8">
+                                        <div class="table-responsive" id="lv_table">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-sm-12 col-md-6 col-xs-12 col-md-offset-3">
+                                        <button type="submit" class="btn btn-primary" style="width:100%;">提 交</button>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-1 col-xs-4 control-label"></label>
+                                </div>
+                            </div>
+                            <!-- /.box -->
+                        </div>
+                    </div>
+                </form>
+                <!--数据表结束-->
+        </section>
+        <!-- right col -->
+    </div>
+    <!-- /.row (main row) -->
+
+    </section>
+    <!--内容结束-->
+</div>
+</div>
+
+<script type="text/x-template" id="attribute-template">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">规格</label>
+                <div class="col-sm-2">
+                    <div class=" input-group">
+                        <span class="input-group-addon" style="padding: 0 6px;"  onclick="delAttribute(this)"><a class="btn btn-xs"><i class="fa fa-trash-o"></i></a></span>
+                        <input type="text" name="name" class="form-control" placeholder="请输入规格名称" value="__NAME__" readonly>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">属性</label>
+                <div class="col-sm-8 props">
+                    <div class="col-sm-3 has-bottom">
+                        <div class=" input-group">
+                            <span class="input-group-addon" style="padding: 0 6px;" onclick="delValue(this)"  ><a class="btn btn-xs"><i class="fa fa-trash-o"></i></a></span>
+                            <input type="text" name="value[__NAME__][]" class="form-control" onblur="getValue(this,'__NAME__')" placeholder="请输入属性名称" value="__VALUE__">
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-success" onclick="addValue(this, '__NAME__')">添加</a>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/x-template" id="value-template">
+    <div class="col-sm-3 has-bottom">
+        <div class=" input-group">
+            <span class="input-group-addon" style="padding: 0 6px;" onclick="delValue(this)" ><a class="btn btn-xs"><i class="fa fa-trash-o"></i></a></span>
+            <input type="text" name="value[__NAME__][]" class="form-control" onblur="getValue(this,'__NAME__')"  placeholder="请输入属性名称" value="__VALUE__">
+        </div>
+
+    </div>
+</script>
+
+<script>
+    var sku_info = <?php echo json_encode($sku_info);?>;
+    console.log(sku_info);
+    console.log(sku_info.length);
+    $(function () {
+
+            var info = <?php echo $info;?>;
+
+            for(var i=0; i < info.prop_names.length; i++) {
+                var html = '';
+                var template = $('#attribute-template').html();
+                var prop_template = $('#value-template').html();
+
+                html = template.replace(/__NAME__/g, info.prop_names[i]);
+                prop_template = prop_template.replace(/__NAME__/g,info.prop_names[i]);
+                $('#attribute-box').append(html);
+
+                var prop_html = '';
+                $("#attribute-box").children('.panel-default').eq(i).find('.props').html('');
+                for(var j=0;j< info.prop_name_value[i].length;j++) {
+                    prop_html = prop_template.replace(/__VALUE__/g,info.prop_name_value[i][j]);
+                    $("#attribute-box").children('.panel-default').eq(i).find('.props').append(prop_html);
+                }
+            }
+            createTable();
+    })
+    function addAttribute(obj) {
+        var input = $(obj).parents('.form-group').find('input[name=name_add]');
+        var name = input.val();
+        if (name === '') {
+            layer.msg('请输入规格名称');
+            return false;
+        }
+        var html = $('#attribute-template').html();
+        html = html.replace(/__NAME__/g, name).replace(/__VALUE__/g, '');
+        $('#attribute-box').append(html);
+        input.val('');
+    }
+
+    function addValue(obj, name) {
+        var html = $('#value-template').html();
+        html = html.replace(/__NAME__/g, name).replace(/__VALUE__/g, '');
+        $(obj).prev().append(html);
+    }
+
+    function delAttribute(obj) {
+        $(obj).parents('.panel-default').remove();
+        createTable();
+    }
+
+    function delValue(obj) {
+        $(obj).parents('.has-bottom').remove();
+        createTable();
+    }
+
+    // 得到值
+    function  getValue(obj,name) {
+        var vals = '';
+        var val = $(obj).val();
+        $("input[name='value["+name+"][]']").each(function(){
+            if ($(this).val() !== "") {
+                vals+=$(this).val()+',';
+            }
+        });
+        createTable();
+    }
+
+    function createTable(){
+        var lv1Arr = $('input[name="name"]');
+        if (!lv1Arr || lv1Arr.length == 0) {
+            $('#lv_table_con').hide();
+            $('#lv_table').html('');
+            return;
+        }
+        for (var i = 0; i < lv1Arr.length; i++) {
+            var values = $(lv1Arr[i]).val();
+            console.log(values);
+            // console.log(lv1Arr[0])
+            var lv2Arr = $(lv1Arr[i]).parents('.panel-default').find('input[name="value['+values+'][]"]');
+            console.log($(lv1Arr[i]).parents('.panel-default').find('input[name="value['+values+'][]"]'))
+            if (!lv2Arr || lv2Arr.length == 0) {
+                alert('请先删除无参数的规格项！' +values);
+                return;
+            }
+        }
+
+
+        var tableHTML = '';
+            tableHTML += '<table class="table table-bordered">';
+            tableHTML += '<tr>';
+            for (var i = 0; i < lv1Arr.length; i++) {
+                tableHTML += '<td>' + $(lv1Arr[i]).val() + '</td>';
+            }
+            tableHTML += '<td>价格（zpc）</td>';
+            tableHTML += '<td>价格（￥）</td>';
+            tableHTML += '<td>库存</td>';
+            tableHTML += '</tr>';
+            tableHTML += '<tbody>';
+             
+            var numsArr = new Array();
+            var idxArr = new Array();
+            for (var i = 0; i < lv1Arr.length; i++) {
+                var values = $(lv1Arr[i]).val();
+                numsArr.push($(lv1Arr[i]).parents('.panel-default').find('input[name="value['+values+'][]"]').length);
+                idxArr[i] = 0;
+            }
+             
+            var len = 1;
+            var rowsArr = new Array();
+            for (var i = 0; i < numsArr.length; i++) {
+                len = len * numsArr[i];
+                 
+                var tmpnum = 1;
+                for (var j = numsArr.length - 1; j > i; j--) {
+                    tmpnum = tmpnum * numsArr[j];
+                }
+                rowsArr.push(tmpnum);
+            }
+             
+            for (var i = 0; i < len; i++) {
+                tableHTML += '        <tr>';
+                 
+                var name = '';
+                for (var j = 0; j < lv1Arr.length; j++) {
+                    var n = parseInt(i / rowsArr[j]);
+                    if (j == 0) {
+                    } else if (j == lv1Arr.length - 1) {
+                        n = idxArr[j];
+                        if (idxArr[j] + 1 >= numsArr[j]) {
+                            idxArr[j] = 0;
+                        } else {
+                            idxArr[j]++;
+                        }
+                    } else {
+                        var m = parseInt(i / rowsArr[j]);
+                        n = m % numsArr[j];
+                    }
+                     
+                    var values = $(lv1Arr[j]).val();
+                    var text = $(lv1Arr[j]).parents('.panel-default').find('input[name="value['+values+'][]"]').eq(n).val();
+                    if (j != lv1Arr.length - 1) {
+                        name += text + '_';
+                    } else {
+                        name += text;
+                    }
+                     
+                    if (i % rowsArr[j] == 0) {
+                        tableHTML += '<td rowspan="' + rowsArr[j] + '" >' + text + '</td>';
+                    }
+                }
+
+                var price = 0;
+                var price_rmb = 0;
+                var stock = 0;
+                for(var k=0; k < sku_info.length; k++) {
+                    // alert(name);
+                    // alert(sku_info[k]['sku_id']);
+                    if (name == sku_info[k]['sku_id']) {
+                        price = sku_info[k]['price'];
+                        price_rmb = sku_info[k]['price_rmb'];
+                        stock = sku_info[k]['stock'];
+                    }
+                }
+                tableHTML += '<td><input type="number" class="col-sm-5"  name="name[' + name + '][price]" / value="'+price+'"></td>';
+                tableHTML += '<td><input type="number" class="col-sm-5"  name="name[' + name + '][price_rmb]" value="'+price_rmb+'"/></td>';
+                tableHTML += '<td><input type="number" class="col-sm-5"  name="name[' + name + '][stock]" value="'+stock+'"/></td>';
+                tableHTML += '</tr>';
+            }
+            tableHTML += '</tbody>';
+            tableHTML += '</table>';
+             
+            $('#lv_table_con').show();
+            $('#lv_table').html(tableHTML);
+    }
+</script>
+</body>
+</html>

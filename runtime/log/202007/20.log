@@ -1,0 +1,2133 @@
+---------------------------------------------------------------
+[ 2020-07-20T10:57:08+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：1.215629s] [吞吐率：0.82req/s] [内存消耗：3,207.01kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001330s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.061617s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.010495s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydEcY79tzcKs5cWIP',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010382s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T10:57:27+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.098925s] [吞吐率：10.11req/s] [内存消耗：3,800.72kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001705s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrsfhXMXGSZfGlaOT',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000842s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T10:58:05+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.101620s] [吞吐率：9.84req/s] [内存消耗：3,713.38kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001734s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoqJMYAZuOEsbwGXG',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000797s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类的属性不存在:app\api\model\Banner->banner[D:\work\bangbanglian\thinkphp\library\think\Model.php:626]
+---------------------------------------------------------------
+[ 2020-07-20T10:58:25+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.040089s] [吞吐率：24.94req/s] [内存消耗：3,800.77kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001661s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqn1FJ5zC4tnSAsSr',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000812s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T10:59:14+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.038629s] [吞吐率：25.89req/s] [内存消耗：3,800.77kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002107s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000229s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary78npltQ283yq4p50',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000911s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T10:59:31+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.034505s] [吞吐率：28.98req/s] [内存消耗：3,800.77kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001687s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoVXHPj5ywzyZ48Ln',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000841s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:03:13+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.048874s] [吞吐率：20.46req/s] [内存消耗：3,801.11kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001959s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeHAIA5Gkd0KSfFzI',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:03:14+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.057834s] [吞吐率：17.29req/s] [内存消耗：3,801.11kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.027772s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000182s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLd9qXnPNC6kfHJsB',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000847s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:03:15+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.040181s] [吞吐率：24.89req/s] [内存消耗：3,801.11kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001672s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryW5Pol0m0XD845JBI',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000787s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:03:42+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/base/homePage
+[运行时间：0.030069s] [吞吐率：33.26req/s] [内存消耗：3,801.56kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001693s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'base',
+    2 => 'homePage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5UzRDA0yNfJauKRs',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000780s ]
+[ info ] [ RUN ] app\api\controller\Base->homePage[ D:\work\bangbanglian\application\api\controller\Base.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:03+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.035459s] [吞吐率：28.20req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005997s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000240s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9NCivYN5OzTxpqua',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000877s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:11+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026349s] [吞吐率：37.95req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001810s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000168s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXE26VzL77T4ME4rL',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000795s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:12+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.053739s] [吞吐率：18.61req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.027442s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIABKDMw1XxSZuOJd',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000830s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:12+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026522s] [吞吐率：37.70req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001647s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzwyXuW4DtHAfoGiy',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000837s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:12+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026377s] [吞吐率：37.91req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001643s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGB4ByURs3zZRovW7',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000792s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:13+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.027199s] [吞吐率：36.77req/s] [内存消耗：3,588.10kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001677s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHrh0RPDR9fBuZGFY',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000790s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:16+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.055508s] [吞吐率：18.02req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.029420s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000183s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000900s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:16+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.036000s] [吞吐率：27.78req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001868s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000797s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:34:16+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026039s] [吞吐率：38.40req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001666s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000788s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:35:27+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026798s] [吞吐率：37.32req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001679s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000162s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000789s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:35:43+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.031386s] [吞吐率：31.86req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006076s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000178s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000808s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:35:47+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026565s] [吞吐率：37.64req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001698s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000819s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:35:47+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026715s] [吞吐率：37.43req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001860s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000179s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000856s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:35:47+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.026856s] [吞吐率：37.24req/s] [内存消耗：3,587.46kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001722s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000792s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:37:11+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.030821s] [吞吐率：32.45req/s] [内存消耗：3,588.98kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001940s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000219s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000922s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:37:42+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.036552s] [吞吐率：27.36req/s] [内存消耗：3,588.98kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001670s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000798s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:45:27+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.034308s] [吞吐率：29.15req/s] [内存消耗：3,184.61kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006081s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000287s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfC9ey7HAqMBtZy0j',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000929s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:45:40+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.037340s] [吞吐率：26.78req/s] [内存消耗：3,589.56kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001687s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrxfsCYMyaBZAkGJx',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000805s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:46:12+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.030526s] [吞吐率：32.76req/s] [内存消耗：3,589.88kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001667s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000173s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6UfeimEqI2h0Ih7D',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000848s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:46:27+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.028803s] [吞吐率：34.72req/s] [内存消耗：3,589.88kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002069s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000200s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykwDbHuiAMuHiyXyN',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000941s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T11:47:08+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.036820s] [吞吐率：27.16req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001701s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000788s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:35+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.044488s] [吞吐率：22.48req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002578s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000261s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000908s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:36+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.036430s] [吞吐率：27.45req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001653s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000789s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:36+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.051500s] [吞吐率：19.42req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002477s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000188s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000834s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:36+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.036078s] [吞吐率：27.72req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001669s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000787s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:36+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.026296s] [吞吐率：38.03req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001663s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000786s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:37+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.036517s] [吞吐率：27.38req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001657s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000787s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:01:38+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.037364s] [吞吐率：26.76req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000011s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001744s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000171s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000836s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:02:59+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsSortList
+[运行时间：0.037350s] [吞吐率：26.77req/s] [内存消耗：3,590.62kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001660s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsSortList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000793s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsSortList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:03:06+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.036529s] [吞吐率：27.38req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001697s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000784s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T13:03:12+08:00 ] 127.0.0.1 GET bangbl.com/index.php/api/goods/goodsLabel
+[运行时间：0.027698s] [吞吐率：36.10req/s] [内存消耗：3,589.24kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001750s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsLabel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000790s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsLabel[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:01:54+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.036623s] [吞吐率：27.31req/s] [内存消耗：3,193.84kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006117s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000347s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykc2grq8Xe1YjA2vV',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000989s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:02:21+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.056683s] [吞吐率：17.64req/s] [内存消耗：3,193.84kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.030024s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000187s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNwAnfyMuqM5ABBBa',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001002s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:02:40+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.035016s] [吞吐率：28.56req/s] [内存消耗：2,758.63kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001671s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000172s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3VWpRFifrx7iOIHw',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000801s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Goods::where()[D:\work\bangbanglian\application\api\controller\Goods.php:87]
+---------------------------------------------------------------
+[ 2020-07-20T15:04:07+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.032625s] [吞吐率：30.65req/s] [内存消耗：3,760.18kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001896s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000230s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryETAswxopGDufIBGd',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000866s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:04:56+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.028002s] [吞吐率：35.71req/s] [内存消耗：3,760.18kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001693s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1fZiz4g7XW3BsqXm',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000784s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:05:12+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.028668s] [吞吐率：34.88req/s] [内存消耗：3,760.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001673s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw7HRIMcxVbyGxTNB',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '229',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '0',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000801s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:05:13+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.054749s] [吞吐率：18.27req/s] [内存消耗：3,760.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.025710s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000193s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYPaYtWnUDQvICmYg',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '229',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '0',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001333s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:05:15+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.028838s] [吞吐率：34.68req/s] [内存消耗：3,760.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001684s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHBthBRXBoyvEsOnb',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '229',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000841s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:12:01+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.034340s] [吞吐率：29.12req/s] [内存消耗：3,760.50kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002211s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA73Hptu84rONUBsY',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '229',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000875s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:14:27+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.065413s] [吞吐率：15.29req/s] [内存消耗：3,807.54kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001961s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000228s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPTSe5TQiVVeR5ZcO',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000864s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: items[D:\work\bangbanglian\application\api\controller\Goods.php:130]
+---------------------------------------------------------------
+[ 2020-07-20T15:14:27+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.030037s] [吞吐率：33.29req/s] [内存消耗：3,807.54kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002511s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000197s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvL885AkACsTfSp0m',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000829s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: items[D:\work\bangbanglian\application\api\controller\Goods.php:130]
+---------------------------------------------------------------
+[ 2020-07-20T15:15:13+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.038979s] [吞吐率：25.65req/s] [内存消耗：3,762.65kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001699s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000165s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryScfnBetZruW7EZSR',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000790s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:15:22+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.029480s] [吞吐率：33.92req/s] [内存消耗：3,762.21kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001674s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000164s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvZt6AeJJBbz9ImTp',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '715',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000784s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:16:50+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.060456s] [吞吐率：16.54req/s] [内存消耗：3,762.65kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028596s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000245s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyHYoQAuyAByylTDf',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000949s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:16:50+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.028482s] [吞吐率：35.11req/s] [内存消耗：3,762.65kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001682s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000170s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWvV6B9BncnHTQITT',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000917s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:16:55+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.038696s] [吞吐率：25.84req/s] [内存消耗：3,762.65kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001685s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000167s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr77HIRBPdBPnYQka',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000794s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:16:59+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsList
+[运行时间：0.028702s] [吞吐率：34.84req/s] [内存消耗：3,762.21kb] [文件加载：130]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001713s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000195s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhv7r8dCEyOpGx87w',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '716',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '1',
+  'is_hot' => '1',
+  'name' => '测试',
+  'price_order' => '1',
+  'buy_num_order' => '1',
+  'label_id' => '0',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000849s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsList[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:56:30+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsInfo
+[运行时间：0.034650s] [吞吐率：28.86req/s] [内存消耗：3,198.48kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006333s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw9RTaxlAM6v3thXM',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000878s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:56:56+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsInfo
+[运行时间：0.022672s] [吞吐率：44.11req/s] [内存消耗：2,763.27kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001669s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000166s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvBelNDOr3AXzeoti',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000803s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsInfo[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Goods::get()[D:\work\bangbanglian\application\api\controller\Goods.php:141]
+---------------------------------------------------------------
+[ 2020-07-20T15:57:22+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsInfo
+[运行时间：0.021814s] [吞吐率：45.84req/s] [内存消耗：2,731.94kb] [文件加载：120]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001674s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000176s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydSVeUh2JkWdOKyRi',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000854s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsInfo[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-07-20T15:57:31+08:00 ] 127.0.0.1 POST bangbl.com/index.php/api/goods/goodsInfo
+[运行时间：0.031944s] [吞吐率：31.30req/s] [内存消耗：3,609.88kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001967s ]
+[ info ] [ LANG ] D:\work\bangbanglian\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000169s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'goods',
+    2 => 'goodsInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=8vpesgnfd2iiej5da5kq4lv6ar',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqRTwBKsXYHieczz7',
+  'user-agent' => 'apizza-extension',
+  'accept' => '*/*',
+  'content-length' => '140',
+  'connection' => 'close',
+  'host' => 'bangbl.com',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '1',
+)
+[ info ] [ LANG ] D:\work\bangbanglian\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000837s ]
+[ info ] [ RUN ] app\api\controller\Goods->goodsInfo[ D:\work\bangbanglian\application\api\controller\Goods.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

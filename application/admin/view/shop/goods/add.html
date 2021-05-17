@@ -1,0 +1,154 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('选择分类')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="form-inline" data-toggle="cxselect" data-selects="sort_one_id,sort_two_id" data-rule="reqired">
+                <select class="sort_one_id form-control" data-rule="reqired" id="c-sort_one_id" name="row[sort_one_id]" data-url="shop/goods_sort/category?pid=0">
+                </select>
+                <select class="sort_two_id form-control" data-rule="reqired" id="c-sort_two_id" name="row[sort_two_id]" data-url="shop/goods_sort/category" data-query-name="pid">
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('商品名称')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" class="form-control" data-rule="required" name="row[title]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('单价（￥）')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-price" class="form-control" step="0.01" name="row[price]" type="number" value="0.00">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('单价（ZPC）')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-virtual_price" class="form-control" step="0.01" name="row[virtual_price]" type="number" value="0.00">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('商品图片')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-images" class="form-control" size="50" name="row[images]" type="textarea">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-images" class="btn btn-danger plupload" data-input-id="c-images" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-images"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-images" class="btn btn-primary fachoose" data-input-id="c-images" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-images"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-images"></ul>
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Buy_num')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-buy_num" class="form-control" name="row[buy_num]" type="number" value="0">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('虚拟购买量')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-false_buy_num" class="form-control" name="row[false_buy_num]" type="number" value="0">
+            <input id="c-_buy_num" class="form-control" name="row[buy_num]" type="hidden" value="0">
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Total_buy_num')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-total_buy_num" class="form-control" name="row[total_buy_num]" type="number" value="0">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('标签')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-label_id" data-rule="required" data-source="shop/goods_label" class="form-control selectpage" name="row[label_id]" type="text" value="">
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Label_name')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-label_name" class="form-control" name="row[label_name]" type="text">-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-content" class="form-control editor" rows="5" name="row[content]" cols="50"></textarea>
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-status" class="form-control" name="row[status]" type="number" value="2">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Prop_names')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <textarea id="c-prop_names" class="form-control " rows="5" name="row[prop_names]" cols="50"></textarea>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Prop_name_value')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <textarea id="c-prop_name_value" class="form-control " rows="5" name="row[prop_name_value]" cols="50"></textarea>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('是否允许退货')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-is_backgoods" class="form-control selectpicker"  name="row[is_backgoods]">
+                {foreach name="isBackGoodsList" item="vo"}
+                <option value="{$key}" >{$vo}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('是否推荐')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <select id="c-position" class="form-control selectpicker"  name="row[position]">
+                {foreach name="positionList" item="vo"}
+                <option value="{$key}" >{$vo}</option>
+                {/foreach}
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('发货地')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-send_address" class="form-control" name="row[send_address]" type="text">
+        </div>
+    </div>
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Created_at')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-created_at" class="form-control" name="row[created_at]" type="number" value="0">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Updated_at')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-updated_at" class="form-control" name="row[updated_at]" type="number" value="0">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="form-group">-->
+<!--        <label class="control-label col-xs-12 col-sm-2">{:__('Deleted_at')}:</label>-->
+<!--        <div class="col-xs-12 col-sm-8">-->
+<!--            <input id="c-deleted_at" class="form-control" name="row[deleted_at]" type="number">-->
+<!--        </div>-->
+<!--    </div>-->
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
